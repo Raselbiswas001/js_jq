@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  
+
+  <title>Js/Jq</title>
+</head>
+<body>
+	<header>
+ <button type="button" class="btn btn-info btn-block" onclick ="btn1()"> 
+  <h1 id="btnhead">welcome to javascript world</h1></button>
+  <div class="container">
+    <div class="row">
+        
+
+        <div class="col-md-8 ">
+          <ul class="nav nav-pills justify-content-center mt-5">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="tooltip" data-placement="bottom" >ABOUT </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="tooltip" data-placement="top" >PROTFOLIO</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="tooltip" data-placement="bottom" >CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+      <div class="contact">
+        <a href="https://www.facebook.com/raselbiswas347" target="_blank"><i class="fab fa-facebook" onmouseover="btn3()"></i></a>
+        <span id="fbicon"class="common">facebook</span>
+      </div>
+      </div>
+         </div>
+
+         <!-- 2nd row  start -->
+         <div class="row">
+      <div class="col-md-2">
+        <div class="tab">
+          <div class="tab01">
+            <p> <a href="#" onmouseover="tab11()">tab01</a></p>
+            <p> <a href="#" onmouseover="tab22()">tab01</a></p>
+            <p> <a href="#" onmouseover="tab33()">tab01</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="tabmd">
+          <h1 class="common">javascript contact</h1>
+          <p id="tab1" class="common">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Distinctio vitae atque quasi debitis fugit rem blanditiis iure nulla inventore dolore Lorem ipsum dolor sit amet consectetur</p>
+        </div>
+        <div class="tab222">
+           <p id="tab223" class="common">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley  </p>
+        </div> 
+         <div class="tab222" class="common">
+           <p id="tab333" class="common">Why do we use it It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is </p>
+        </div>
+      </div>
+      <div class="col-md-3"></div>
+    </div> 
+      <button class="btn btn-info btn-block " onclick="clickbtn()"> click me</button>
+    <p class="hidbtn" id="clickme" >Thanks for Click Me</p>
+     </div>
+</header>
+<!-- about start -->
+<section class="about">
+  <div class="container">
+     <h1 class="text-center m-5">ABOUT JAVASCRIPT</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="light1">
+          <button type="submit" class="btn btn-info btn-block mt-5" onclick="document.getElementById('light').src='img/project3.jpg'"> on </button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="light2">
+          <img src="img/project1.jpg" class="img-fluid lightimg" alt="light" id="light">
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="light3">
+          <button type="submit" class="btn btn-info btn-block mt-5" onclick="document.getElementById('light').src='img/project1.jpg'"> off </button>
+
+        </div>
+      </div>
+    </div>
+
+    <p id="variable" onmouseover="hello()"> example</p>
+    <p id="variable2"></p>
+    <p id="variable3"></p>
+    <p id="variable4"></p>
+  </div>
+</section>
+
+
+
+
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<h1 class="text-info">welcome to website</h1>
+            
+            <button type="button" class="btn btn-primary" id="btn" onmouseover="textChange()" >Click me</button>
+
+            <h2 id="h2">Welcome</h2>
+
+
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<h2>My First Web Page</h2>
+		<p>My First Paragraph.</p>
+
+		<p id="demo"></p>
+
+		<h2>JavaScript Statements</h2>
+
+		<p>Multiple statements on one line is allowed.</p>
+
+		<p id="demo1"></p>
+
+		<h2>JavaScript Comments</h2>
+
+		<h1 id="myH"></h1>
+
+		<p id="myP"></p>
+
+		<p>The line starting with // is not executed.</p>
+
+		<h2>JavaScript $</h2>
+
+		<p>The dollar sign is treated as a letter in JavaScript names.</p>
+
+		<p id="demo3"></p>
+
+
+		<h2>JavaScript Scope</h2>
+
+		<p>Outside myFunction() carName is undefined.</p>
+
+		<p id="demo4"></p>
+
+		<p id="demo5"></p>
+
+		<p>Multiplication has precedence over addition.</p>
+		<p>But parenthesis has precedence over multiplication.</p>
+
+		<p id="demo6"></p>
+
+		<p>Accessing a function without () will return the function definition instead of the function result:</p>
+		<p id="demo8"></p>
+
+		<h2>JavaScript Functions</h2>
+
+		<p>Accessing a function without () will return the function definition instead of the function result:</p>
+		<p id="demo9"></p>
+
+		<h2>JavaScript Functions</h2>
+
+		<p>This example calls a function which performs a calculation, and returns the result:</p>
+
+		<p id="function"></p>
+
+		<h2>JavaScript Functions</h2>
+
+		<p>This example calls a function which performs a calculation and returns the result:</p>
+
+		<p id="f1"></p>
+
+	</div>
+</div>
+
+
+
+
+
+<!-- js link-->
+
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<script>
+	
+	function textChange(){
+
+		document.getElementById('h2').innerHTML="Hello Sir";
+	}
+
+</script>
+</body>
+</html>
